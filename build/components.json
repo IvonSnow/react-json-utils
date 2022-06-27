@@ -1,0 +1,6 @@
+{
+  "marquee": "component/marquee/main.js",
+  "toast": "component/toast/toast.js",
+  "dialog": "component/dialog/dialog.js",
+  //……
+}

@@ -1,0 +1,46 @@
+{
+  "name": "react-json-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "lib/react-json-utils.js",
+  "private": true,
+  "scripts": {
+    "start": "webpack build --config build/webpack.dev.js",
+    "build": "webpack --config build/webpack.prod.js --progress --hide-modules",
+    "build:components": "webpack --config build/webpack.component.js --progress --hide-modules"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IvonSnow/react-json-utils.git"
+  },
+  "keywords": [],
+  "author": "xueyunfeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IvonSnow/react-json-utils/issues"
+  },
+  "homepage": "https://github.com/IvonSnow/react-json-utils#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.10",
+    "@babel/core": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "@babel/preset-react": "^7.17.12",
+    "@babel/preset-typescript": "^7.17.12",
+    "babel-loader": "^8.2.5",
+    "clean-webpack-plugin": "^4.0.0",
+    "css-loader": "^6.7.1",
+    "file-loader": "^6.2.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.9.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
